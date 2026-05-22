@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-LearningComputer Coaching Centre</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <!-- Header / Navigation -->
+    <header class="bg-Red-600 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <i class="fas fa-laptop-code text-3xl text-yellow-300"></i>
+                <h1 class="text-2xl font-bold tracking-tight">E-Learning <span class="text-yellow-300">Coaching</span></h1>
+            </div>
+            <nav class="flex gap-6 font-medium">
+                <a href="#courses" class="hover:text-yellow-300 transition">Courses</a>
+                <a href="#fees" class="hover:text-yellow-300 transition">Fees</a>
+                <a href="#schedule" class="hover:text-yellow-300 transition">Batches</a>
+                <a href="#enroll" class="bg-yellow-400 text-blue-900 px-4 py-1.5 rounded-full font-bold hover:bg-yellow-300 transition shadow">Enroll Now</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white py-16 px-4 text-center">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">Master Computer Skills with Expert Guidance</h2>
+            <p class="text-lg md:text-xl text-blue-100 mb-8 max-w-2xl mx-auto">Flexible 2-hour daily batches designed to fit your busy routine. Professional courses at transparent, affordable pricing.</p>
+            <div class="flex flex-wrap justify-center gap-6 text-sm font-semibold">
+                <span class="bg-white/10 px-4 py-2 rounded-full border border-white/20"><i class="fas fa-clock text-yellow-300 mr-2"></i>2-Hour Batches</span>
+                <span class="bg-white/10 px-4 py-2 rounded-full border border-white/20"><i class="fas fa-certificate text-yellow-300 mr-2"></i>Certified Courses</span>
+                <span class="bg-white/10 px-4 py-2 rounded-full border border-white/20"><i class="fas fa-tags text-yellow-300 mr-2"></i>Affordable Fees</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="max-w-6xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-gray-900 mb-2">Our Featured Courses</h3>
+            <p class="text-gray-600">Choose the program that aligns with your career goals</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- DCA -->
+            <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col">
+                <div class="bg-blue-50 p-6 text-center border-b border-gray-100">
+                    <span class="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">6 Months</span>
+                    <h4 class="text-2xl font-bold text-gray-800 mt-3">DCA</h4>
+                    <p class="text-sm text-gray-500 font-medium mb-3">Diploma in Computer Applications</p>
+                    <div class="text-blue-600 font-extrabold text-2xl">₹9,500 <span class="text-xs text-gray-400 font-normal">Full Course</span></div>
+                </div>
+                <div class="p-6 flex-grow">
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Computer Fundamentals & OS</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>MS Office Suite (Word, Excel, PPT)</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Internet & Database Concepts</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Multimedia Basics</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-50 border-t border-gray-100">
+                    <a href="#enroll" class="block text-center bg-blue-600 text-white font-semibold py-2.5 rounded-xl hover:bg-blue-700 transition">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- CCC -->
+            <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col ring-4 ring-blue-600 ring-offset-2">
+                <div class="bg-blue-600 p-6 text-center text-white relative">
+                    <span class="absolute top-4 right-4 bg-yellow-400 text-blue-900 text-[10px] font-extrabold px-2 py-0.5 rounded">POPULAR</span>
+                    <span class="bg-white/20 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">3 Months</span>
+                    <h4 class="text-2xl font-bold mt-3">CCC</h4>
+                    <p class="text-sm text-blue-100 font-medium mb-3">Course on Computer Concepts</p>
+                    <div class="text-yellow-300 font-extrabold text-2xl">₹5,000 <span class="text-xs text-blue-200 font-normal">Full Course</span></div>
+                </div>
+                <div class="p-6 flex-grow">
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>GUI Based Operating Systems</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Word Processing & Spreadsheets</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Digital Financial Services</li>
+                        <li><i class="fas fa-check text-blue-600 mr-2"></i>Cyber Security Awareness</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-50 border-t border-gray-100">
+                    <a href="#enroll" class="block text-center bg-blue-600 text-white font-semibold py-2.5 rounded-xl hover:bg-blue-700 transition">Enroll Now</a>
+                </div>
+            </div>
+
+            <!-- ADCA -->
+            <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col">
+                <div class="bg-blue-50 p-6 text-center border-b border-gray-100">
+                    <span class="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">12 Months</span>
+                    <h4 class="text-2xl font-bold text-gray-800 mt-3">ADCA</h4>
+                    <p class="text-sm text-gray-500 font-medium mb-3">Advance Diploma in Computer Apps</p>
+                    <div class="text-blue-600 font-extrabold text-2xl">₹18,500 <span class="text-xs text-gray-400 font-normal">Full Course</span></div>
+                </div>
+                <div class="p-6 flex-grow">
+                    <ul class="space-y-3 text-gray-600 text-sm">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Everything in DCA</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Tally Prime with GST</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Programming Concepts (C/C++)</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Web Designing (HTML, CSS)</li>
+                    </ul>
+                </div>
+                <div class="p-6 bg-gray-50 border-t border-gray-100">
+                    <a href="#enroll" class="block text-center bg-blue-600 text-white font-semibold py-2.5 rounded-xl hover:bg-blue-700 transition">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fees Structure Table Section -->
+    <section id="fees" class="bg-gray-100 py-16 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-10">
+                <h3 class="text-3xl font-bold text-gray-900 mb-2">Fee Structure</h3>
+                <p class="text-gray-600">Invest in your skills with all-inclusive transparent fee options.</p>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-200">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-blue-600 text-white text-sm">
+                            <th class="p-4">Course Code</th>
+                            <th class="p-4">Course Full Name</th>
+                            <th class="p-4">Duration</th>
+                            <th class="p-4 text-right">Total Course Fees</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200 text-sm text-gray-700">
+                        <tr class="hover:bg-blue-50/50 transition">
+                            <td class="p-4 font-bold text-blue-600">CCC</td>
+                            <td class="p-4">Course on Computer Concepts</td>
+                            <td class="p-4">3 Months</td>
+                            <td class="p-4 text-right font-extrabold text-gray-900">₹5,000</td>
+                        </tr>
+                        <tr class="hover:bg-blue-50/50 transition">
+                            <td class="p-4 font-bold text-blue-600">DCA</td>
+                            <td class="p-4">Diploma in Computer Applications</td>
+                            <td class="p-4">6 Months</td>
+                            <td class="p-4 text-right font-extrabold text-gray-900">₹9,500</td>
+                        </tr>
+                        <tr class="hover:bg-blue-50/50 transition">
+                            <td class="p-4 font-bold text-blue-600">ADCA</td>
+                            <td class="p-4">Advance Diploma in Computer Applications</td>
+                            <td class="p-4">12 Months</td>
+                            <td class="p-4 text-right font-extrabold text-gray-900">₹18,500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center text-xs text-gray-500 mt-4"><i class="fas fa-info-circle mr-1"></i> No hidden registration fees or examination overheads included.</p>
+        </div>
+    </section>
+
+    <!-- Schedule / Batch Planner Section -->
+    <section id="schedule" class="bg-blue-50 py-16 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-10">
+                <h3 class="text-3xl font-bold text-gray-900 mb-2">Daily Batch Timings</h3>
+                <p class="text-gray-600">Pick any continuous 2-hour session that suits your day.</p>
+            </div>
+
+            <!-- Interactive Batch Quick Finder -->
+            <div class="bg-white p-6 rounded-2xl shadow-sm mb-8 border border-gray-200">
+                <h4 class="font-bold text-gray-800 mb-4 flex items-center gap-2">
+                    <i class="fas fa-filter text-blue-600"></i> Quick Batch & Fee Check
+                </h4>
+                <div class="grid sm:grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Select Course</label>
+                        <select id="widget-course" class="w-full bg-gray-50 border border-gray-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                            <option value="CCC">CCC (Fees: ₹5,000)</option>
+                            <option value="DCA">DCA (Fees: ₹9,500)</option>
+                            <option value="ADCA">ADCA (Fees: ₹18,500)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-gray-500 uppercase mb-1">Preferred Time Zone</label>
+                        <select id="widget-time" class="w-full bg-gray-50 border border-gray-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none">
+                            <option value="morning">Morning Batches</option>
+                            <option value="afternoon">Afternoon Batches</option>
+                            <option value="evening">Evening / Final Batches</option>
+                        </select>
+                    </div>
+                </div>
+                <button onclick="checkSlots()" class="w-full bg-blue-600 text-white text-sm font-semibold py-2.5 rounded-lg hover:bg-blue-700 transition">
+                    Show Available Details
+                </button>
+                <div id="widget-result" class="mt-4 hidden p-3 rounded-lg text-sm font-medium text-center"></div>
+            </div>
+
+            <!-- Main Batch Table -->
+            <div class="bg-white rounded-2xl shadow-sm overflow-hidden border border-gray-200">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-800 text-white text-sm">
+                            <th class="p-4">Batch Profile</th>
+                            <th class="p-4">Timings</th>
+                            <th class="p-4">Duration</th>
+                            <th class="p-4 text-center">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100 text-sm">
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="p-4 font-semibold text-gray-700">Morning Slot A</td>
+                            <td class="p-4 text-blue-600 font-medium">09:00 AM - 11:00 AM</td>
+                            <td class="p-4 text-gray-500">2 Hours</td>
+                            <td class="p-4 text-center"><span class="bg-green-100 text-green-700 px-2.5 py-1 rounded-full text-xs font-semibold">Available</span></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="p-4 font-semibold text-gray-700">Morning Slot B</td>
+                            <td class="p-4 text-blue-600 font-medium">11:00 AM - 01:00 PM</td>
+                            <td class="p-4 text-gray-500">2 Hours</td>
+                            <td class="p-4 text-center"><span class="bg-green-100 text-green-700 px-2.5 py-1 rounded-full text-xs font-semibold">Available</span></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="p-4 font-semibold text-gray-700">Midday Slot</td>
+                            <td class="p-4 text-blue-600 font-medium">01:00 PM - 03:00 PM</td>
+                            <td class="p-4 text-gray-500">2 Hours</td>
+                            <td class="p-4 text-center"><span class="bg-yellow-100 text-yellow-700 px-2.5 py-1 rounded-full text-xs font-semibold">Filling Fast</span></td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition">
+                            <td class="p-4 font-semibold text-gray-700">Evening (Final Batch)</td>
+                            <td class="p-4 text-blue-600 font-medium">03:00 PM - 05:00 PM</td>
+                            <td class="p-4 text-gray-500">2 Hours</td>
+                            <td class="p-4 text-center"><span class="bg-green-100 text-green-700 px-2.5 py-1 rounded-full text-xs font-semibold">Available</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="enroll" class="max-w-xl mx-auto px-4 py-16">
+        <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
+            <div class="text-center mb-6">
+                <h3 class="text-2xl font-bold text-gray-900">Secure Your Seat</h3>
+                <p class="text-sm text-gray-500 mt-1">Fill out the quick form below, and our team will schedule your free demo class.</p>
+            </div>
+            
+            <form class="space-y-4" onsubmit="event.preventDefault(); alert('Registration successful! Our counselor will call you within 24 hours.');">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Full Name</label>
+                    <input type="text" required placeholder="John Doe" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-1">Phone Number</label>
+                    <input type="tel" required placeholder="+1 234 567 890" class="w-full border border-gray-300 rounded-xl px-4 py-2.5 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition">
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">Course Interested</label>
+                        <select class="w-full border border-gray-300 rounded-xl px-3 py-2.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none transition">
+                            <option>CCC (₹5,000)</option>
+                            <option>DCA (₹9,500)</option>
+                            <option>ADCA (₹18,500)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-1">Preferred Timing</label>
+                        <select class="w-full border border-gray-300 rounded-xl px-3 py-2.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none transition">
+                            <option>09:00 AM - 11:00 AM</option>
+                            <option>11:00 AM - 01:00 PM</option>
+                            <option>01:00 PM - 03:00 PM</option>
+                            <option>03:00 PM - 05:00 PM</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-xl hover:bg-blue-700 transition shadow-md hover:shadow-lg mt-2">
+                    Submit Registration
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8 px-4 text-center text-sm border-t border-gray-800">
+        <p class="mb-2">&copy; 2026 E-LearningComputer Coaching Centre. All rights reserved.</p>
+        <p class="text-xs text-gray-600">All student workstations are fully loaded with modern software packages required for courses.</p>
+    </footer>
+
+    <!-- JavaScript for the Interactive Widget -->
+    <script>
+        function checkSlots() {
+            const course = document.getElementById('widget-course').value;
+            const timeZone = document.getElementById('widget-time').value;
+            const resultDiv = document.getElementById('widget-result');
+            
+            resultDiv.classList.remove('hidden', 'bg-green-100', 'text-green-800', 'bg-blue-100', 'text-blue-800', 'bg-yellow-100', 'text-yellow-800');
